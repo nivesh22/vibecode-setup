@@ -1,0 +1,26 @@
+name: Feature
+description: A scoped feature with testable acceptance criteria
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / user
+      description: Why is this useful and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: "Given ... When ... Then ..."
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies / overlapping files
+  - type: textarea
+    id: tests
+    attributes:
+      label: Expected tests / validation
